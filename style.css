@@ -43,9 +43,15 @@ footer p{
     text-align: center;
     font-size: 80px;
 }
-.enemy{
+.enemy { 
+    display: flex;
     width: 30%;
+    height: 100%;
     float: left;
+    align-items: center;
+    
+    justify-content: space-evenly;
+    
     
 }
 .nd-half img{
